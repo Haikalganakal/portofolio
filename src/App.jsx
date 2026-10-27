@@ -45,9 +45,9 @@ export default function App() {
   
   // Data Gambar Slider BMW
   const bmwImages = [
-    "/public/Pricelist-BMW.JPG",
-    "/public/BMW-Smart.JPG",
-    "/public/Admin-BMW.JPG"
+    "/Pricelist-BMW.JPG",
+    "/BMW-Smart.JPG",
+    "/Admin-BMW.JPG"
   ];
 
   // Data Gambar Project Donat
@@ -122,7 +122,7 @@ export default function App() {
           <div className="flex-1 flex justify-start">
             <a href="#home" className="hover:opacity-80 transition flex items-center">
               <img 
-                src="/public/Logo-Haikal.png" 
+                src="/Logo-Haikal.png" 
                 alt="Logo Haikal" 
                 className="h-10 w-auto object-contain" 
               />
@@ -194,7 +194,7 @@ export default function App() {
           <div className="flex-1 w-full flex justify-center md:justify-end">
             <div className="w-full max-w-md aspect-3/4 rounded-2xl overflow-hidden shadow-2xl relative border border-gray-800">
               <img 
-                src="/public/Profil-Haikal.jpeg" 
+                src="/Profil-Haikal.jpeg"
                 alt="Haikal Wisnu Fazrian" 
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" 
               />
