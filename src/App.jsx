@@ -84,7 +84,7 @@ export default function App() {
     setFormErrors({ ...formErrors, [e.target.name]: '' });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     let errors = {};
 
@@ -105,9 +105,33 @@ export default function App() {
     if (Object.keys(errors).length > 0) {
       setFormErrors(errors);
     } else {
-      setIsSuccess(true);
-      setFormData({ nama: '', email: '', pesan: '' }); 
-      setTimeout(() => setIsSuccess(false), 5000);
+      try {
+        const response = await fetch("https://api.web3forms.com/submit", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+          },
+          body: JSON.stringify({
+            access_key: "83d081b8-2dbb-4b28-8a58-cb881bdc7b91",
+            name: formData.nama,
+            email: formData.email,
+            message: formData.pesan,
+          }),
+        });
+
+        const result = await response.json();
+        if (result.success) {
+          setIsSuccess(true);
+          setFormData({ nama: '', email: '', pesan: '' }); 
+          setFormErrors({});
+          setTimeout(() => setIsSuccess(false), 5000);
+        } else {
+          alert("Gagal mengirim pesan, silakan coba lagi.");
+        }
+      } catch (error) {
+        alert("Terjadi kesalahan koneksi.");
+      }
     }
   };
 
