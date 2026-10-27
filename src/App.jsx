@@ -52,7 +52,7 @@ export default function App() {
 
   // Data Gambar Project Donat
   const donatImages = [
-    "/public/Project-donat.JPG"
+    "/Project-donat.JPG"
   ]
 
   // Data Keahlian
