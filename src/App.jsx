@@ -193,7 +193,7 @@ export default function App() {
                 Haikal Wisnu Fazrian
               </h1>
               <h2 className="text-xl text-gray-400 font-medium">
-                Frontend Developer <br /> Backend Developer
+                Full-Stack Developer
               </h2>
             </div>
             <div className="my-10">
@@ -201,9 +201,9 @@ export default function App() {
                 About Me
               </h3>
               <p className="text-gray-400 leading-relaxed max-w-xl">
-                Saya adalah seorang Front-End/Back-end Developer membangun antarmuka web interaktif, modern, dan responsif menggunakan React, JavaScript, TypeScript dan Tailwind CSS. Saat ini, saya sedang aktif memperluas keahlian menuju peran Full-Stack Developer dengan mendalami arsitektur backend, perancangan database, serta integrasi API untuk menciptakan solusi digital.
+                Lulusan S1 Teknik Informatika Universitas Pamulang yang berfokus pada pengembangan web end-to-end. Berpengalaman membangun antarmuka web interaktif, modern, dan responsif menggunakan React, JavaScript, TypeScript, dan Tailwind CSS.
                 <br/><br/>
-                Saya juga memiliki pengalaman praktis dalam merancang dan memodelkan arsitektur database ( UML, ERD, dan LRS), serta mengimplementasikannya ke dalam PostgreSQL dan MySQL untuk membangun fondasi sistem yang terstruktur dan andal.
+                Memiliki keahlian mendalam dalam perancangan arsitektur sistem dan database menggunakan UML, ERD, dan LRS, serta mengimplementasikannya ke dalam PostgreSQL dan MySQL. Berkomitmen menghadirkan solusi digital yang andal melalui integrasi API dan arsitektur backend yang terstruktur.
               </p>
             </div>
             <div className="flex gap-4 justify-start mt-auto">
@@ -370,14 +370,13 @@ export default function App() {
                 <div className="flex flex-wrap gap-2 mt-auto">
                   <span className="text-xs font-medium bg-gray-800 text-gray-300 px-3 py-1 rounded-full border border-gray-700">HTML5</span>
                   <span className="text-xs font-medium bg-gray-800 text-gray-300 px-3 py-1 rounded-full border border-gray-700">CSS3</span>
-                  <span className="text-xs font-medium bg-gray-800 text-gray-300 px-3 py-1 rounded-full border border-gray-700">JavaScript</span>
                   <span className="text-xs font-medium bg-gray-800 text-gray-300 px-3 py-1 rounded-full border border-gray-700">React</span>
                   <span className="text-xs font-medium bg-gray-800 text-gray-300 px-3 py-1 rounded-full border border-gray-700">PostgreSQL</span>
                 </div>
               </div>
             </div>
 
-            {/* Project 3: KopiPedia */}
+            {/* Project 3: Finance Dashboard */}
             <div className="bg-gray-900 rounded-xl overflow-hidden border border-gray-800 hover:border-gray-600 hover:shadow-2xl transition duration-300 flex flex-col group">
               <div className="w-full aspect-video bg-gray-800 flex items-center justify-center overflow-hidden relative">
                   <span className="text-gray-500 font-medium group-hover:scale-110 transition duration-500">Screenshot Finance</span>
@@ -389,8 +388,7 @@ export default function App() {
                 </p>
                 <div className="flex flex-wrap gap-2 mt-auto">
                   <span className="text-xs font-medium bg-gray-800 text-gray-300 px-3 py-1 rounded-full border border-gray-700">React</span>
-                  <span className="text-xs font-medium bg-gray-800 text-gray-300 px-3 py-1 rounded-full border border-gray-700">SQL</span>
-                  <span className="text-xs font-medium bg-gray-800 text-gray-300 px-3 py-1 rounded-full border border-gray-700">HTML5</span>
+                  <span className="text-xs font-medium bg-gray-800 text-gray-300 px-3 py-1 rounded-full border border-gray-700">PostgreSQL</span>
                   <span className="text-xs font-medium bg-gray-800 text-gray-300 px-3 py-1 rounded-full border border-gray-700">Tailwind CSS</span>
                 </div>
               </div>
